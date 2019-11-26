@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="293dp">
+
+        <ImageView
+            android:id="@+id/btn_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/avatar"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hernika Bid Candra"
+            android:textColor="#4CAF50"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00CDDC39"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="189dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/kamera" />
+
+        <Button
+            android:id="@+id/btn_galeri"
+            android:layout_width="200dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:background="@drawable/galeriigambar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
